@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JEUI - Form</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
+    <link href="css/jeui.css" rel="stylesheet" type="text/css">
+    <link href="css/gloab.css" rel="stylesheet" type="text/css">
+    <script src="js/jeui.js"></script>
+    <style>
+        .forms{overflow: hidden;padding: 10px;}
+        .forms .items{margin-bottom: 10px;overflow: hidden;}
+        .forms .items .textname{width: 90px;}
+        .vcode{width: 90px;height: 44px;}
+    </style>
+</head>
+<body class="viewbody">
+    <header class="viewhead je-bg-blue je-white je-text-center je-f16">JEUI - Form</header>
+    <content class="viewmain">
+        <div class="je-f16 forms">
+            <h2 class="je-tl je-pt10 je-pb10 je-w100 je-fl je-f18">单选列表项</h2>
+            <div class="je-w100 items je-bg-white je-f14">
+                <label class="je-flexbox je-align-center je-por je-cell-bottom je-p10">
+                    <h4 class="je-vercent je-flex je-nowrap je-ell">这是标题，加ui-nowrap可以超出长度截断可以超出长度截断,这是标题，加ui-nowrap可以超出长度截断可以超出长度截断。</h4>
+                    <div class="je-check je-white je-f11"><input type="radio" name="radio1" ><span class="radio"></span></div>
+                </label>
+                <label class="je-flexbox je-align-center je-por je-cell-bottom je-p10">
+                    <h4 class="je-vercent je-flex je-nowrap je-ell">这是标题，加ui-nowrap可以超出长度截断可以超出长度截断,这是标题，加ui-nowrap可以超出长度截断可以超出长度截断。</h4>
+                    <div class="je-check je-white je-f11"><input type="radio" name="radio1" checked><span class="radio"></span></div>
+                </label>
+                <label class="je-flexbox je-align-center je-por je-cell-bottom je-p10">
+                    <h4 class="je-vercent je-flex je-nowrap je-ell">这是标题，加ui-nowrap可以超出长度截断可以超出长度截断,这是标题，加ui-nowrap可以超出长度截断可以超出长度截断。</h4>
+                    <div class="je-check je-white je-f11"><input type="radio" name="radio1" ><span class="radio"></span></div>
+                </label>
+            </div>
+            <h2 class="je-tl je-pt10 je-pb10 je-w100 je-fl je-f18">复选列表项</h2>
+            <div class="je-w100 items je-bg-white je-f14">
+                <label class="je-flexbox je-align-center je-por je-cell-bottom je-p10">
+                    <div class="je-check je-white je-f11 je-pr10"><input type="checkbox" name="radio1" ><span class="check"></span></div>
+                    <h4 class="je-vercent je-flex je-nowrap je-ell">这是标题，加ui-nowrap可以超出长度截断可以超出长度截断,这是标题，加ui-nowrap可以超出长度截断可以超出长度截断。</h4> 
+                </label>
+                <label class="je-flexbox je-align-center je-por je-cell-bottom je-p10">
+                    <div class="je-check je-white je-f11 je-pr10"><input type="checkbox" name="radio1" ><span class="check"></span></div>
+                    <h4 class="je-vercent je-flex je-nowrap je-ell">这是标题，加ui-nowrap可以超出长度截断可以超出长度截断,这是标题，加ui-nowrap可以超出长度截断可以超出长度截断。</h4> 
+                </label>
+                <label class="je-flexbox je-align-center je-por je-cell-bottom je-p10">
+                    <div class="je-check je-white je-f11 je-pr10"><input type="checkbox" name="radio1" ><span class="check"></span></div>
+                    <h4 class="je-vercent je-flex je-nowrap je-ell">这是标题，加ui-nowrap可以超出长度截断可以超出长度截断,这是标题，加ui-nowrap可以超出长度截断可以超出长度截断。</h4> 
+                </label>
+            </div>
+            <h2 class="je-tl je-pt10 je-pb10 je-w100 je-fl je-f18">复选列表项</h2>
+            <div class="je-w100 items je-bg-white je-f14">
+                <div class="je-flexbox je-align-center je-por je-cell-bottom je-p8">
+                    <div class="textname">登录账号：</div>
+                    <div class="je-vercent je-flex"><input class="je-input" type="text" placeholder="请输入登录账号"></div>
+                </div>
+                <div class="je-flexbox je-align-center je-por je-cell-bottom je-p8">
+                    <div class="textname">登录密码：</div>
+                    <div class="je-vercent je-flex"><input class="je-input" type="text" placeholder="请输入登录密码"></div>
+                </div>
+                <div class="je-flexbox je-align-center je-por je-cell-bottom">
+                    <div class="textname je-pl8">验 证 码：</div>
+                    <div class="je-vercent je-flex je-pr8"><input class="je-input" type="text" placeholder="请输入验证码"></div>
+                    <img src="images/vcode.jpg" class="vcode">
+                </div>
+                <div class="je-flexbox je-align-center je-por je-cell-bottom je-p8">
+                    <div class="textname">收货人姓名：</div>
+                    <div class="je-vercent je-flex"><input class="je-input" type="text" placeholder="请输入收货人姓名"></div>
+                </div>
+                <div class="je-flexbox je-align-center je-por je-cell-bottom je-p8">
+                    <div class="textname">银行卡号：</div>
+                    <div class="je-vercent je-flex"><input class="je-input" type="number" placeholder="请输入银行卡号"></div>
+                </div>
+                <div class="je-flexbox je-align-center je-por je-cell-bottom je-p8">
+                    <div class="je-vercent je-flex je-pr8"><input class="je-input" type="text" placeholder="我是文本框"></div>
+                </div>
+                <div class="je-flexbox je-text-center je-align-left je-orient-ver je-por je-cell-bottom je-p8">
+                    <p>文本域</p>
+                    <div class="je-vercent je-flex je-w100"><textarea class="je-textarea" placeholder="请输入文本" rows="3"></textarea></div>
+                </div>
+                <label class="je-flexbox je-align-center je-por je-p10">
+                    <div class="je-check je-white je-f11 je-pr10"><input type="checkbox" name="yuedu" ><span class="check"></span></div>
+                    <h4 class="je-vercent je-flex je-nowrap je-ell">阅读并同意《相关条款》</h4> 
+                </label>
+            </div>
+            <button type="button" class="je-btn je-w100 je-bg-green je-white je-rdu3 je-mt10 je-mb10">确定</button>
+        </div>
+    </content>
+   
+</body>
+</html>

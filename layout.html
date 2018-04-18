@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JEUI</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
+    <link href="css/jeui.css" rel="stylesheet" type="text/css">
+    <link href="css/gloab.css" rel="stylesheet" type="text/css">
+    <script src="js/jeui.js"></script>
+    <style>
+        .lays{overflow: hidden;padding: 10px;}
+        .lays .items{margin-bottom: 24px;}
+        .lays .flexdemo{height:80px;}
+    </style>
+</head>
+<body class="viewbody">
+    <header class="viewhead je-bg-blue je-white je-text-center je-f16">JEUI - LayOut</header>
+    <content class="viewmain">
+        <div class="je-f16 lays">
+            <h2 class="je-tl je-pt10 je-pb10 je-w100 je-fl je-f18">上对齐平铺</h2>
+            <div class="je-w100 items je-bg-white je-f14 je-ovh flexdemo">
+                <ul class="je-flexbox">
+                    <li class="je-flexbox je-box-center je-orient-ver je-flex je-tc"><div>菜单</div><i>1</i></li>
+                    <li class="je-flexbox je-box-center je-orient-ver je-flex je-tc"><div>菜单</div><i>2</i></li>
+                    <li class="je-flexbox je-box-center je-orient-ver je-flex je-tc"><div>菜单</div><i>3</i></li>
+                </ul>
+            </div>
+            <h2 class="je-tl je-pt10 je-pb10 je-w100 je-fl je-f18">上下左右居中平铺</h2>
+            <div class="je-w100 items je-bg-white je-f14 je-ovh">    
+                <ul class="je-flexbox flexdemo">
+                    <li class="je-flexbox je-text-center je-align-center je-orient-ver je-flex"><div>菜单</div><i>1</i></li>
+                    <li class="je-flexbox je-text-center je-align-center je-orient-ver je-flex"><div>菜单</div><i>2</i></li>
+                    <li class="je-flexbox je-text-center je-align-center je-orient-ver je-flex"><div>菜单</div><i>3</i></li>   
+                </ul>    
+            </div>
+            <h2 class="je-tl je-pt10 je-pb10 je-w100 je-fl je-f18">flex布局排列，默认横排</h2>
+            <div class="je-w100 items je-bg-white je-f14 je-ovh">    
+                <div class="je-flexbox je-w100 je-text-left je-por je-cell-bottom flexdemo">
+                    <div>左</div><div>左</div>
+                </div>
+                <div class="je-flexbox je-w100 je-text-center je-por je-cell-bottom flexdemo">
+                    <div>中</div><div>中</div>
+                </div>
+                <div class="je-flexbox je-w100 je-text-right je-por je-cell-bottom flexdemo">
+                    <div>右</div><div>右</div>
+                </div>
+                <div class="je-flexbox je-w100 je-align-left je-por je-cell-bottom flexdemo">
+                    <div>上</div><div>上</div>
+                </div>
+                <div class="je-flexbox je-w100 je-align-center je-por je-cell-bottom flexdemo">
+                    <div>中</div><div>中</div>
+                </div>
+                <div class="je-flexbox je-w100 je-align-right flexdemo">
+                    <div>下</div><div>下</div>
+                </div>    
+            </div>
+            <h2 class="je-tl je-pt10 je-pb10 je-w100 je-fl je-f18">flex布局排列，多排居中</h2>
+            <div class="je-w100 items je-bg-white je-f14 je-ovh">    
+                <div class="je-flexbox jew100 je-text-center je-align-left je-orient-ver flexdemo">
+                    <div>左中左中左中</div>
+                    <div>左中左中左中左中左中</div>
+                    <div>左中</div>
+                </div>      
+            </div>
+        </div>
+    </content>
+   
+</body>
+</html>

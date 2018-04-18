@@ -1,0 +1,10 @@
+html{height: 100%;}
+.viewbody{position: relative;background-color: #FAFAFA; height: 100%;}
+
+.viewwrap{width: 100%;height: 100%;position: absolute;top: 0;left: 0;border: 0;display: -webkit-box;display: box;-webkit-box-orient: vertical;box-orient: vertical;background-color: #FFF;overflow: hidden;}
+.viewhead{position:fixed;display:-webkit-box;display:box;width: inherit;height:44px;line-height:44px;top:0;left: 0;right: 0;margin: 0 auto;z-index: 50;}
+.viewhead ~ .viewmain{padding-top: 44px;}
+
+.viewmain{width: 100%;position:relative;overflow:auto;display: block;}
+.viewfoot{position:fixed;display:-webkit-box;display:box;width:inherit;height:44px;background-color:#f3f3f3;bottom:0;left: 0;right: 0;margin: 0 auto;z-index: 50;}
+.viewfoot ~ .viewmain{padding-bottom: 44px;}
